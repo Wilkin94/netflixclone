@@ -1,0 +1,120 @@
+.login{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    padding-top:100px; /* push content below fixed navbar */
+    background: transparent;
+    color: #fff;
+}
+
+.login-logo{
+    width:160px;
+    height:auto;
+    margin-bottom:24px;
+    display:block;
+}
+
+.login-form{
+    width:100%;
+    max-width:420px;
+    padding:28px;
+    background: rgba(0,0,0,0.6);
+    border-radius:6px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+}
+
+.login-form h1{
+    color:#fff;
+    margin-bottom:16px;
+    font-size:28px;
+}
+
+.login {
+    height: 100vh;
+    background-image: linear-gradient(#0000007e, #0000007e), url(/background_banner.jpg);
+    padding: 20px 8%;
+}
+
+.login-logo {
+    width: 150px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px;
+    margin: auto;
+}
+
+.login-form h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.login-form input {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: white;
+    margin: 12px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-form input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-form button {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    background: #e50914;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form-help {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.remember input {
+    width: 18px;
+    height: 18px;
+}
+
+.form-switch {
+    margin-top: 40px;
+    color: #737373;
+}
+
+.form-switch span {
+    margin-left: 6px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
